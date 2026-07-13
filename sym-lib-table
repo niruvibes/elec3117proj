@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "WLC1115-68LQXQ") (type "KiCad") (uri "${KIPRJMOD}/components/wlc1115/2026-07-13_00-41-12.kicad_sym") (options "") (descr ""))
+	(lib (name "Optiga Trust") (type "KiCad") (uri "${KIPRJMOD}/components/optigatrust/2026-07-13_04-04-05.kicad_sym") (options "") (descr ""))
+	(lib (name "NFET") (type "Altium") (uri "${KIPRJMOD}/components/nfet/BSZ0902NS.SchLib") (options "") (descr ""))
+)

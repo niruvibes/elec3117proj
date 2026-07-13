@@ -1,0 +1,12 @@
+# KiCad temporary and backup files
+*.bak
+*.kicad_prl
+*-bak
+*-cache.lib
+*.bck
+*_autosave-*
+.kicad_pcb-bak
+
+# Output directories (optional, remove if you want to track them)
+/plots/
+/gerbers/
