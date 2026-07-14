@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RB511SM-40FHT2R
+D ROHM - RB511SM-40FHT2R - Schottky Rectifier, 40 V, 100 mA, Single, SOD-523, 2 Pins, 410 mV
+K
+F https://componentsearchengine.com/Datasheets/2/RB511SM-40FHT2R.pdf
+$ENDCMP
+#
+#End Doc Library

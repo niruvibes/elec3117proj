@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAT64T5Q-7-F
+D Surface Mount Diode Schottky
+K
+F https://www.diodes.com/assets/Datasheets/BAT64T5Q.pdf
+$ENDCMP
+#
+#End Doc Library
