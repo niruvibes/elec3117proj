@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N4448W-TP
+D 500mW,100V Switching Diode
+K
+F https://mccsemi.com/pdf/Products/1N4448W(SOD-123).pdf
+$ENDCMP
+#
+#End Doc Library
