@@ -15950,7 +15950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProtoFlow.pretty:Yageo_Pulse_PA4342_10.3x11.5mm"
+		(property "Footprint" "PA4342.682NLT:Yageo_Pulse_PA4342_10.3x11.5mm"
 			(at 325.12 204.47 0)
 			(hide yes)
 			(show_name no)
