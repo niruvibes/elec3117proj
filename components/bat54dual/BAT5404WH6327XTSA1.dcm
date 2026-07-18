@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAT5404WH6327XTSA1
+D Diode Schottky Si 0.2A Automotive 3-Pin SOT-323 T/R
+K
+F https://www.infineon.com/dgdl/Infineon-BAT54SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca3890115190b74210ea6
+$ENDCMP
+#
+#End Doc Library

@@ -10,3 +10,4 @@
 # Output directories (optional, remove if you want to track them)
 /plots/
 /gerbers/
+/tmp/

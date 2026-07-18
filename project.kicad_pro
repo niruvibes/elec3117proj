@@ -74,6 +74,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.18,
+          "via_gap": 0.0,
+          "width": 0.18
         }
       ],
       "drc_exclusions": [],
@@ -214,7 +219,10 @@
         0.001,
         0.02,
         0.1,
+        0.15,
+        0.18,
         0.2,
+        0.25,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -516,7 +524,7 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -666,7 +674,7 @@
         "uuid": "06ece816-3b32-485f-889c-44a92027efc2"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J5-6,IC1-2,TP23,#PWR29,#PWR70",
     "variants": []
   },
   "sheets": [

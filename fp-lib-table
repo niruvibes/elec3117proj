@@ -11,4 +11,5 @@
 	(lib (name "PA4342.682NLT") (type "KiCad") (uri "${KIPRJMOD}/components/PA4342.682NLT/PA4342.682NLT.pretty") (options "") (descr ""))
 	(lib (name "rb511sm") (type "KiCad") (uri "${KIPRJMOD}/components/rb511sm") (options "") (descr ""))
 	(lib (name "wlc1115") (type "KiCad") (uri "${KIPRJMOD}/components/wlc1115/footprints.pretty") (options "") (descr ""))
+	(lib (name "bat54sdual") (type "KiCad") (uri "${KIPRJMOD}/components/bat54dual") (options "") (descr ""))
 )

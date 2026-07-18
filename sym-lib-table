@@ -8,4 +8,5 @@
 	(lib (name "bat64t") (type "KiCad") (uri "${KIPRJMOD}/components/bat64t5q/BAT64T5Q-7-F.kicad_sym") (options "") (descr ""))
 	(lib (name "rb511sm") (type "KiCad") (uri "${KIPRJMOD}/components/rb511sm/RB511SM-40FHT2R.kicad_sym") (options "") (descr ""))
 	(lib (name "PA4342.682NLT") (type "KiCad") (uri "${KIPRJMOD}/components/PA4342.682NLT/PA4342.682NLT.kicad_sym") (options "") (descr ""))
+	(lib (name "bat54dual") (type "KiCad") (uri "${KIPRJMOD}/components/bat54dual/BAT5404WH6327XTSA1.kicad_sym") (options "") (descr ""))
 )
