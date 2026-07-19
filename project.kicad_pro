@@ -53,7 +53,7 @@
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_smoothing": 1,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -674,7 +674,7 @@
         "uuid": "06ece816-3b32-485f-889c-44a92027efc2"
       }
     ],
-    "used_designators": "J5-6,IC1-2,TP23,#PWR29,#PWR70",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

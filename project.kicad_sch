@@ -6455,16 +6455,6 @@
 		)
 		(uuid "39bf3797-1724-4ba1-b446-a52bd3325965")
 	)
-	(text "IC -> ESP"
-		(exclude_from_sim no)
-		(at 171.45 146.812 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3c9eeab7-2304-4988-b14e-b1c3a9d9a2c1")
-	)
 	(text "Programming Connector"
 		(exclude_from_sim no)
 		(at 255.016 238.506 0)
@@ -9574,16 +9564,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 154.94) (xy 167.64 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "934971d3-20a2-458d-b96c-9bb26d9c2c0a")
-	)
-	(wire
-		(pts
 			(xy 101.6 186.69) (xy 101.6 207.01)
 		)
 		(stroke
@@ -10445,16 +10425,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 154.94) (xy 193.04 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2b9681c-32cb-414b-9fcd-136bd1e578f1")
-	)
-	(wire
-		(pts
 			(xy 273.05 55.88) (xy 273.05 60.96)
 		)
 		(stroke
@@ -11264,16 +11234,6 @@
 		)
 		(uuid "2e7f2d46-5037-4248-a7e9-02d58c762ca7")
 	)
-	(label "toESP"
-		(at 167.64 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e8fee77-ed85-4736-9c7a-9fa679977821")
-	)
 	(label "ASK_OUT"
 		(at 26.67 187.96 180)
 		(effects
@@ -11873,30 +11833,6 @@
 			(justify right bottom)
 		)
 		(uuid "fdf1f2ea-fd69-41ec-bb36-357aba43b1cd")
-	)
-	(global_label "COMM"
-		(shape input)
-		(at 189.23 154.94 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a0dd04cc-5e76-4fd7-a52e-2d2cf6f03bdd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 146.4515 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
@@ -12498,85 +12434,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 200.66 154.94 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a5b30a9-7a22-4ebd-895f-2a3a54f8efe4")
-		(property "Reference" "#PWR020"
-			(at 207.01 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 154.9399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a8ad1b26-63cb-49f8-a79a-5750aa3a6335")
-		)
-		(instances
-			(project "project"
-				(path "/06ece816-3b32-485f-889c-44a92027efc2"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 30.48 78.74 90)
 		(unit 1)
@@ -12895,86 +12752,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 196.85 154.94 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ef5f062-434a-4b46-a809-1eb51bb09ac1")
-		(property "Reference" "R5"
-			(at 196.85 148.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 196.85 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 196.85 156.718 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 196.85 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1fc2cc73-452b-4728-a4b3-04c095b0fd3e")
-		)
-		(pin "2"
-			(uuid "eedf643f-0d48-4090-8af5-cf7793f59518")
-		)
-		(instances
-			(project "project"
-				(path "/06ece816-3b32-485f-889c-44a92027efc2"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 181.61 137.16 270)
 		(unit 1)
@@ -13086,7 +12863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 248.92 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -13883,7 +13660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 237.49 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -25645,7 +25422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 237.49 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -26362,7 +26139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 248.92 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -28478,7 +28255,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 69.85 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -29787,86 +29564,6 @@
 			(project "project"
 				(path "/06ece816-3b32-485f-889c-44a92027efc2"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 180.34 154.94 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f61df14e-4473-4063-b29b-2ce13448ee25")
-		(property "Reference" "R4"
-			(at 180.34 148.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 180.34 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 180.34 156.718 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 180.34 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a604f27-89e3-45cf-b434-abdd9ad715bf")
-		)
-		(pin "2"
-			(uuid "03f4426f-727b-4e5a-9fce-efbc6197a488")
-		)
-		(instances
-			(project "project"
-				(path "/06ece816-3b32-485f-889c-44a92027efc2"
-					(reference "R4")
 					(unit 1)
 				)
 			)
