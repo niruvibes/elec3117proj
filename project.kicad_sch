@@ -11434,6 +11434,16 @@
 		)
 		(uuid "58d5b61a-63a3-47f4-aa8f-f547af06a84a")
 	)
+	(label "IOUT_CSP_0_P"
+		(at 36.83 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c405fdf-d3c6-4949-8cc6-2151a29c8695")
+	)
 	(label "BST1_1"
 		(at 356.87 143.51 0)
 		(effects
@@ -11783,6 +11793,16 @@
 			(justify right bottom)
 		)
 		(uuid "f6153ef4-f4d0-4343-bab2-d961956c2b41")
+	)
+	(label "IOUT_CSP_0_N"
+		(at 36.83 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7506e44-9c64-4c4d-94e4-6bd3e2e2a2b9")
 	)
 	(label "ASK_P"
 		(at 140.97 114.3 0)
